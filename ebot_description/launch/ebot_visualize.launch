@@ -2,7 +2,7 @@
 <launch>
 
 <!--including urdf model-->
-    <param name="robot_description" command="$(find xacro)/xacro.py '$(find ebot_description)/urdf/ebot.xacro'"/>
+    <param name="robot_description" command="$(find xacro)/xacro '$(find ebot_description)/urdf/ebot.xacro'"/>
 <!--publish the state of the robot i.e. tf-->
     <node name="robot_state_publisher" pkg="robot_state_publisher" type="state_publisher"/>
 
