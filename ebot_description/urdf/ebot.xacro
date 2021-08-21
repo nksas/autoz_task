@@ -337,7 +337,7 @@
   <!-- Intel real sense Camera for 3D mapping-->
   <joint name="realsensejoint" type="fixed">
     <axis xyz="0 0 0" />
-    <origin xyz="0.277944460576403 0.00208437301780086 0.0230507258091751" rpy="0 0 0"/>
+    <origin xyz="0.277944460576403 0.00208437301780086 1.0" rpy="0 0 0"/>
     <parent link="ebot_base"/>
     <child link="camera_link"/>
   </joint>
